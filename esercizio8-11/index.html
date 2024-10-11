@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricerca Lavori</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="box">
+      <h1>Ricerca Offerte di Lavoro</h1>
+      <div class="search box">
+        <div>
+          <span>💼</span>
+          <label for="jobTitle">Titolo Lavorativo:</label>
+          <input type="text" id="jobTitle" placeholder="Titolo lavorativo">
+        </div>
+        <div>
+          <span>🌍</span>
+          <label for="location">Posizione Geografica:</label>
+          <input type="text" id="location" placeholder="Posizione geografica">
+        </div>
+      </div>
+    </div>
+    <button onclick="handleSearch()">Cerca</button> 
+    
+    <div>
+      <h2>Risultati:</h2>
+      <ul id="resultsList"></ul> 
+    </div>
+  
+    <script src="scaricabile.js"></script> 
+  </html>
